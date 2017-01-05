@@ -1,0 +1,17 @@
+nav#nav-repo a:link,
+nav#nav-repo a:visited {
+    text-decoration: none;
+}
+a:focus,
+a:hover,
+a {
+    text-decoration: line-through;
+}
+nav#nav-repo a:link,
+nav#nav-repo a:visited {
+    outline-style: none;
+}
+a:focus,
+a:hover {
+    outline-style: double;
+}

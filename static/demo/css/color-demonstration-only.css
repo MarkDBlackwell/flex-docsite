@@ -1,0 +1,24 @@
+* {
+    border-color: yellow; /* if this color is visible, something elsewhere is wrong */
+}
+article#article > p:not(#title-article) *,
+article#article > p:not(#title-article),
+article#article,
+i.show-baseline {
+    background-color: transparent;
+}
+* {
+    background-color: yellow; /* if this color is visible, something elsewhere is wrong */
+}
+nav#nav-repo > span.show-repo a:focus, /* need this specificity */
+nav#nav-repo > span.show-repo a:hover { /* need this specificity */
+    color: blue;
+}
+nav#nav-repo a:link,
+nav#nav-repo a:visited {
+    color: black;
+}
+a:link, /* IE 11 */
+a:visited { /* IE 11 */
+    color: yellow; /* if this color is visible, something elsewhere is wrong */
+}

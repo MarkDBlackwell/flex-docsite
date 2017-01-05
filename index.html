@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Docs website model with flexbox</title>
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/reset.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/reset-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/other.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/other-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/other-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/layout.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/layout-model.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/color.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/color-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/color-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/link-decorate.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/link-decorate-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/link-decorate-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/responsive-desktop.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/responsive-desktop-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/responsive-desktop-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/responsive-smartphone.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/responsive-smartphone-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/responsive-smartphone-demonstration-only.css">
+
+	<link rel="stylesheet" type="text/css" href="static/exact/css/out/responsive-print.css">
+	<link rel="stylesheet" type="text/css" href="static/model/css/responsive-print-model.css">
+	<link rel="stylesheet" type="text/css" href="static/demo/css/responsive-print-demonstration-only.css">
+
+	<!--See http://trentwalton.com/2013/01/16/windows-phone-8-viewport-fix/-->
+	<!--Keep as first script in <head>:-->
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement('style');
+			msViewportStyle.appendChild(
+				document.createTextNode(
+				'@-ms-viewport{width:auto!important}'
+				)
+			);
+			document.getElementsByTagName("head")[0].
+			appendChild(msViewportStyle);
+		}
+	</script>
+</head>
+<body>
+<div id="container-page">
+<!--
+	<main id="main" class="TableOfContents-compact" role="main">
+-->
+	<main id="main" role="main">
+		<article id="article">
+			<a id="logo-article" title="home page" href="#">
+				<img src="static/model/img/logo-model.png">
+			</a>
+			<p id="title-article">Stuck?</p>
+			<p>
+Got stuck? Worry not!
+			</p>
+			<p>
+Pleeeeeeeeeeeeeeese!
+			</p>
+			<p>
+The <a href="#">chances</a> are good that other users have encountered
+exactly the same problem as you have,
+and have brought it up for discussion.
+			</p>
+			<p>
+If you wish, you can check out our many discussions.
+			</p>
+			<p>
+Many people have reported that they have benefitted greatly from this resource,
+and rightly so, indeed!
+			</p>
+			<p>
+Why not give it a try?
+			</p>
+			<p>
+Many people have.
+			</p>
+			<p>
+And they liked it.
+			</p>
+			<p>
+Indeed.
+			</p>
+			<p>
+Indeed.
+			</p>
+			<p>
+Indeed.
+			</p>
+		</article>
+<!--
+-->
+		<nav id="TableOfContents">
+			<ul>
+				<li>
+					<a href="#">Stuck? (top level)</a>
+					<ul>
+						<li>
+							<a href="#">Step 1. Ponder (level 2)</a>
+							<ul>
+								<li>
+									<a href="#">What to do? (level 3)</a>
+									<ul>
+										<li>
+											<a href="#">Level 4</a>
+										</li>
+										<li>
+											<a href="#">Level 4</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Step 2. Using the process</a>
+							<ul>
+								<li>
+									<a href="#">Deep stuff</a>
+								</li>
+								<li>
+									<a href="#">Deep stuff</a>
+									<ul>
+										<li>
+											<a href="#">Level 4</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Deep stuff</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Create a solution</a>
+							<ul>
+								<li>
+									<a href="#">Solution 1</a>
+								</li>
+								<li>
+									<a href="#">Solution 2</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Using a different topic matter format
+with some extra words to be extra long</a>
+				</li>
+				<li>
+					<a href="#">Which is being used</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+				<li>
+					<a href="#">More</a>
+				</li>
+			</ul>
+		</nav>
+<!--
+-->
+	</main>
+	<ul id="nav-menu">
+		<nav id="anchor-menu"><i class="show-baseline hide">x</i>
+			<a id="hamburger-menu" title="document" href="#">
+				<i class="show-baseline">x</i>
+				<i class="fa">&Xi;</i>
+			</a>
+			<a id="logo-menu" title="home page" href="#">
+				<img src="static/model/img/logo-model.png">
+			</a>
+		</nav>
+		<li class="menu-single">
+			<a class="name" href="#">
+				<i class="fa">&hearts;</i>
+				<span class="name">
+Download
+Application
+				</span>
+			</a>
+		</li>
+		<li class="menu-dynamic">
+			<a class="name" href="#"><i class="show-baseline">x</i>
+				<i class="fa">&clubs;</i>
+				<span class="name">
+Starting
+				</span>
+				<span class="menu-arrow fa">&darr;</span>
+			</a>
+			<ul class="menu-sub">
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Introduction
+Appliciiiiiiii
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Second Chapter
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Third Chapter
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Fourth Chapter
+						</span>
+					</a>
+				</li>
+			</ul>
+		</li>
+		<li class="menu-single active">
+			<a class="name" href="#">
+				<i class="fa">&spades;</i>
+				<span class="name">
+Procedure (active)
+				</span>
+			</a>
+		</li>
+		<li class="menu-dynamic active">
+			<a class="name" href="#">
+				<i class="fa">&diams;</i>
+				<span class="name">
+Troubleshoot (active)
+				</span>
+				<span class="menu-arrow fa">&darr;</span>
+			</a>
+			<ul class="menu-sub open">
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Overview
+						</span>
+					</a>
+				</li>
+				<li class="leaf active">
+					<a class="name" href="#">
+						<span class="name">
+Stuck? (active)
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Try This
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Or This
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Or The Other
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Or Yet Another
+						</span>
+					</a>
+				</li>
+				<li class="leaf">
+					<a class="name" href="#">
+						<span class="name">
+Or This Last
+						</span>
+					</a>
+				</li>
+			</ul>
+		</li>
+		<li class="menu-single">
+			<a class="name" href="#">
+				<i class="fa">&spades;</i>
+				<span class="name">
+Issues
+				</span>
+			</a>
+		</li>
+	</ul>
+	<nav id="nav-binary">
+		<a class="direction" title="previous document" href="#">
+			<i class="fa">&lt;</i>
+		</a>
+		<a class="direction" title="next document" href="#">
+			<i class="fa">&gt;</i>
+		</a>
+	</nav>
+</div>
+<div id="header-page">
+	<p id="title-top"><i class="show-baseline">x</i>Stuck? Stuck? Stuck? Stuck?</p>
+	<nav id="nav-repo"><i class="show-baseline">x</i>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Lots</span>
+				</a>
+			</span>
+		</span>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Of</span>
+				</a>
+			</span>
+		</span>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Pretty</span>
+				</a>
+			</span>
+		</span>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Buttons</span>
+				</a>
+			</span>
+		</span>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Placed</span>
+				</a>
+			</span>
+		</span>
+		<span class="show-repo">
+			<span class="repo-btn">
+				<a class="btn" href="#">
+					<span>Here</span>
+				</a>
+			</span>
+		</span>
+	</nav>
+	<nav id="anchor-top"><i class="show-baseline hide">x</i>
+		<a id="logo-top" title="home page" href="#">
+			<img src="static/model/img/logo-model.png">
+			<span>v42 DEV</span>
+		</a>
+		<!--     JavaScript replaces #hamburger-top-->
+		<a id="hamburger-top" title="menu" href="#nav-menu">
+			<i class="show-baseline">x</i>
+			<i class="fa">&Xi;</i>
+		</a>
+	</nav>
+</div>
+	<script type="text/javascript" src="static/exact/js/scripts.js"></script>
+</body>
+</html>

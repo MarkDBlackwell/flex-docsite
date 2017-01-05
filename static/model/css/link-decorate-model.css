@@ -1,0 +1,9 @@
+a:after {
+    height: 1px;
+}
+a:after {
+    background-color: red;
+}
+a:after {
+    transition: width .2s ease-out;
+}

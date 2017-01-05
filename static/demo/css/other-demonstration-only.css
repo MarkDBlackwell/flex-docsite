@@ -1,0 +1,13 @@
+i.show-baseline.hide,
+i.show-baseline {
+    display: none;
+}
+i.show-baseline {
+    vertical-align: baseline;
+}
+i.show-baseline {
+    font-style: normal;
+}
+i.show-baseline {
+    font-size: 8px;
+}

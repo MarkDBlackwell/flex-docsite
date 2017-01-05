@@ -1,0 +1,8 @@
+@media print {
+  article#article > p:not(#title-article) {
+      margin-right: 37%;
+  }
+  article#article > p:not(#title-article) {
+      margin-left: 37%;
+  }
+}

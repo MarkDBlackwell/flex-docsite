@@ -1,0 +1,8 @@
+@media screen and (min-width: 768.1px) {
+  nav#nav-repo {
+      font-size: 21.6px;
+  }
+  article#article > p:not(#title-article) {
+      font-size: 54px; /* 54px makes panels overflow in fullscreen view */
+  }
+}

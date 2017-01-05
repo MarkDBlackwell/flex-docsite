@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+  ul#nav-menu > li > a.name > i.fa {
+      width: 20px;
+  }
+  nav#TableOfContents > ul {
+      padding-top: 3px;
+  }
+  nav#TableOfContents {
+      padding-bottom: 2.5px;
+  }
+  a#logo-top {
+      padding-left: 16px;
+  }
+  a#hamburger-top {
+      opacity: .8; /* IE 11 lacks correct 8-digit hex colors */
+  }
+  nav#nav-binary,
+  p#title-article {
+      line-height: 1.253; /* 1.253 matches Firefox default */
+  }
+  nav#nav-binary > a.direction > i.fa {
+      line-height: .63;
+  }
+  nav#nav-binary > a.direction > i.fa {
+      font-size: 5vw;
+  }
+  ul#nav-menu > li > a.name > i.fa {
+      font-size: 30px;
+  }
+  article#article > p:not(#title-article),
+  nav#nav-binary,
+  p#title-article,
+  ul#nav-menu {
+      font-size: 25px;
+  }
+  a#hamburger-menu,
+  a#hamburger-top {
+      font-size: 24px;
+  }
+  ul#nav-menu > li.menu-dynamic > ul.menu-sub > li.leaf > a.name {
+      font-size: 21px;
+  }
+  nav#TableOfContents {
+      font-size: 16px;
+  }
+  a#logo-top > span {
+      font-size: 7px;
+  }
+}
+@media screen and (max-width: 264px) {
+  ul#nav-menu > li.menu-dynamic > ul.menu-sub > li.leaf > a.name > span.name {
+      margin-right: 3px;
+  }
+}
